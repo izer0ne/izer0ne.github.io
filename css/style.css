@@ -11,14 +11,14 @@ body {
 }
 
 a {
-  color: #1bb1dc;
+  color: #1145ba;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #0a98c0;
+  color: #1145ba;
   outline: none;
   text-decoration: none;
 }
@@ -1165,10 +1165,8 @@ h6 {
   display: block;
   position: relative;
   font-family: "iransans-medium";
-  font-size: 20px;
-  line-height: 1;
-  font-weight: 400;
-  padding-right: 20px;
+  line-height: 1.3;
+  padding-right: 35px;
 }
 
 #faq #faq-list i {
@@ -1183,7 +1181,7 @@ h6 {
 }
 
 #faq #faq-list a.collapse {
-  color: #1bb1dc;
+  color: #1145ba;
 }
 
 #faq #faq-list a.collapsed {
