@@ -46,7 +46,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #1bb1dc;
+  background: #6a44c3;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -84,7 +84,7 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #1bb1dc;
+  border-top: 6px solid #6a44c3;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -138,7 +138,7 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #1bb1dc;
+  color: #6a44c3;
 }
 
 #topbar .social-links a:first-child {
@@ -235,7 +235,7 @@ h6 {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #1bb1dc;
+  background: #6a44c3;
   color: #fff;
 }
 
@@ -283,7 +283,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #1bb1dc;
+  color: #6a44c3;
   text-decoration: none;
 }
 
@@ -323,7 +323,7 @@ h6 {
 .main-nav .drop-down ul a:hover,
 .main-nav .drop-down ul .active > a,
 .main-nav .drop-down ul li:hover > a {
-  color: #1bb1dc;
+  color: #6a44c3;
 }
 
 .main-nav .drop-down > a:after {
@@ -372,6 +372,7 @@ h6 {
   margin: 0;
   padding: 0;
   list-style: none;
+  text-align: right;
 }
 
 .mobile-nav a {
@@ -517,7 +518,7 @@ h6 {
 #about .about-content ul li i {
   font-size: 20px;
   padding-right: 4px;
-  color: #1bb1dc;
+  color: #6a44c3;
 }
 
 #about .about-img {
@@ -750,7 +751,7 @@ h6 {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  color: #1bb1dc;
+  color: #6a44c3;
 }
 
 #portfolio #portfolio-flters li:last-child {
@@ -815,7 +816,7 @@ h6 {
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
-  color: #1bb1dc;
+  color: #6a44c3;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
@@ -834,7 +835,7 @@ h6 {
   text-align: center;
   width: 36px;
   height: 36px;
-  background: #1bb1dc;
+  background: #6a44c3;
   border-radius: 50%;
   margin: 10px 4px 0 4px;
 }
@@ -918,7 +919,7 @@ h6 {
 }
 
 #testimonials .owl-dot.active {
-  background-color: #1bb1dc;
+  background-color: #6a44c3;
 }
 
 /* Team Section
@@ -995,7 +996,7 @@ h6 {
 }
 
 #team .member .social a:hover {
-  color: #1bb1dc;
+  color: #6a44c3;
 }
 
 #team .member .social i {
@@ -1037,7 +1038,7 @@ h6 {
 }
 
 #clients .owl-dot.active {
-  background-color: #1bb1dc;
+  background-color: #6a44c3;
 }
 
 /* Pricing Section
@@ -1063,7 +1064,7 @@ h6 {
   left: 0;
   width: 0%;
   height: 5px;
-  background-color: #1bb1dc;
+  background-color: #6a44c3;
   transition: 0.5s;
 }
 
@@ -1135,7 +1136,7 @@ h6 {
   letter-spacing: 1px;
   border-radius: 3px;
   display: inline-block;
-  background: #1bb1dc;
+  background: #6a44c3;
   color: #fff;
 }
 
@@ -1200,6 +1201,7 @@ h6 {
   padding: 0 0 30px 0;
   font-size: 14px;
   background: #fff;
+  text-align: right;
 }
 
 #footer .footer-top {
@@ -1216,11 +1218,9 @@ h6 {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "iransans-medium";
+  font-family: "iransans-bold";
   color: #413e66;
   font-weight: 400;
-  letter-spacing: 3px;
-  text-transform: uppercase;
 }
 
 #footer .footer-top .footer-info p {
@@ -1234,7 +1234,7 @@ h6 {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #1bb1dc;
+  background: #6a44c3;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1283,7 +1283,7 @@ h6 {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #1bb1dc;
+  color: #6a44c3;
 }
 
 #footer .footer-top .footer-contact {
@@ -1306,8 +1306,8 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #1bb1dc;
-  border: 1px solid #1bb1dc;
+  background: #6a44c3;
+  border: 1px solid #6a44c3;
   width: 35%;
   padding: 6px 0;
   text-align: center;
@@ -1326,7 +1326,7 @@ h6 {
 
 #footer .footer-top .form #sendmessage {
   color: #fff;
-  background: #1bb1dc;
+  background: #6a44c3;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1392,7 +1392,7 @@ h6 {
 }
 
 #footer .footer-top .form button[type="submit"] {
-  background: #1bb1dc;
+  background: #6a44c3;
   border: 0;
   border-radius: 3px;
   padding: 8px 30px;
@@ -1420,7 +1420,7 @@ h6 {
 }
 
 #footer .credits a {
-  color: #1bb1dc;
+  color: #6a44c3;
 }
 
 #footer .credits a:hover {
@@ -1471,6 +1471,8 @@ h6 {
   #header .logo h1 {
     font-size: 28px;
     padding: 8px 0;
+    position: absolute;
+    left: 20px;
   }
 
   #why-us .why-us-content {
@@ -1492,7 +1494,7 @@ h6 {
   }
 
   #faq #faq-list a {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   #faq #faq-list i {
@@ -1503,7 +1505,9 @@ h6 {
 @media (max-width: 767px) {
   #intro {
     height: auto;
-    padding: 80px 0 60px 0;
+    padding: 80px 0 80px 0;
+    background-size: 155%;
+    background-position: 35% 0;
   }
 
   #intro .container {
@@ -1516,12 +1520,24 @@ h6 {
 
   #intro .intro-info {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 162px;
   }
 
   #intro .intro-info h2 {
-    font-size: 34px;
+    font-size: 20px;
     margin-bottom: 30px;
+  }
+
+  #about {
+    padding: 30px 0;
+  }
+
+  #about .about-content h3 {
+    font-size: 20px;
+  }
+
+  .section-header h3 {
+    font-size: 28px;
   }
 
   .section-header p {
@@ -1541,6 +1557,11 @@ h6 {
   #testimonials .testimonial-item h4,
   #testimonials .testimonial-item p {
     margin-left: 0;
+  }
+
+  #call-to-action .cta-text {
+    font-size: 18px;
+    padding-bottom: 16px;
   }
 }
 
