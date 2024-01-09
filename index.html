@@ -35,7 +35,7 @@
   ======================================================= -->
 </head>
 
-<body>
+<body id="enlang">
   <!--==========================
   Header
   ============================-->
@@ -44,6 +44,7 @@
     <div id="topbar">
       <div class="container">
         <div class="social-links">
+          <a href="/fa/index.html" class="lang"><i class="fa fa-language"></i></a>
           <a href="tel:+98930126906" class="phone"><i class="fa fa-phone"></i></a>-
           <a href="https://www.instagram.com/i.zer0ne" class="instagram"><i class="fa fa-instagram"></i></a>
         </div>
@@ -54,33 +55,19 @@
     display: flex;
     justify-content: space-between;
 ">
-      <nav class="main-nav d-none d-lg-block">
-        <ul>
-          <li><a href="#footer">تماس با ما</a></li>
-          <li><a href="#about">درباره ما</a></li>
-          <li><a href="#portfolio">نمونه کارها</a></li>
-          <li><a href="#services">خدمات ما</a></li>
-          <!-- <li><a href="#team">Team</a></li>
-            <li class="drop-down"><a href="">Drop Down</a>
-              <ul>
-                <li><a href="#">Drop Down 1</a></li>
-                <li class="drop-down"><a href="#">Drop Down 2</a>
-                  <ul>
-                    <li><a href="#">Deep Drop Down 1</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Drop Down 3</a></li>
-              </ul>
-            </li> -->  
-            <li class="active"><a href="#intro">صفحه نخست</a></li>
-        </ul>
-      </nav><!-- .main-nav -->
-
       <div class="logo">
-        <!-- Uncomment below if you prefer to use an image logo -->
         <h1 class="text-light"><a href="#intro" class="scrollto"><span>i.zer0ne</span></a></h1>
         <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
       </div>
+      <nav class="main-nav d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#intro">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </nav><!-- .main-nav -->
     </div>
   </header><!-- #header -->
 
@@ -91,9 +78,9 @@
     <div class="container d-flex h-100">
       <div class="row justify-content-center align-self-end w-100">
         <div class="intro-info text-center">
-          <h2>راهکارهای سریع برای کسب‌ و کارتان!</h2>
+          <h2>Combining creativity and functionality for your online presence</h2>
           <div>
-            <a href="#about" class="btn-get-started scrollto">بزن بریم!</a>
+            <a href="#about" class="btn-get-started scrollto">Let's Start</a>
           </div>
         </div>
       </div>
@@ -111,15 +98,21 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6 col-md-6">
-            <div class="about-content text-right">
-              <h2>درباره صفر و یک</h2>
-              <h3>طراحی، توسعه سایت، گرافیک و خدمات شبکه</h3>
+            <div class="about-content">
+              <h2>About I.ZER0NE</h2>
+              <h3>Site development, graphics and network services</h3>
               <p>
-                صفر و یک، یک تیم متخصص در زمینه توسعه وب سایت، گرافیک و خدمات شبکه است. ما با استفاده از آخرین تکنولوژی ها و روش‌های نوین، وب سایت‌هایی را طراحی و پیاده سازی می‌کنیم که به نیازها و اهداف شما پاسخ می‌دهند. ما همچنین می‌توانیم شبکه‌های کامپیوتری را برای شما ایجاد، مدیریت و بهینه سازی کنیم. ما به دنبال رضایت مشتریان خود هستیم و با کیفیت بالا و قیمت مناسب خدمات خود را ارائه می‌دهیم.
+                I.ZER0NE is an expert team in the field of website development, graphics and network services. Using the latest technologies and new methods, we design and implement websites that respond to your needs and goals. We can also create, manage and optimize computer networks for you. We are looking for the satisfaction of our customers and we provide our services with high quality and reasonable price.
               </p>
               <ul>
-                <li><i class="ion-android-checkmark-circle"></i> ما کاری را که دوست داریم انجام می‌دهیم و آن را به خوبی انجام می‌دهیم.</li>
-                <li><i class="ion-android-checkmark-circle"></i> ما به تیم خود افتخار می‌کنیم و به طور مداوم در حال پیشرفت هستیم.</li>
+                <li>
+                  <i class="ion-android-checkmark-circle"></i>
+                  We do what we love and we do it well.
+                </li>
+                <li>
+                  <i class="ion-android-checkmark-circle"></i>
+                  We are proud of our team and are constantly improving.
+                </li>
               </ul>
             </div>
           </div>
@@ -139,89 +132,81 @@
     ============================-->
     <section id="services" class="section-bg">
       <div class="container">
-
         <header class="section-header">
-          <h3 class="pb-5">خدماتی که ارائه می‌دهیم</h3>
+          <h3 class="pb-5">Our Services</h3>
         </header>
 
         <div class="row">
-
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
-              <h4 class="title"><a href="">طراحی و توسعه سایت سفارشی</a></h4>
-              <p class="description">راه حل های وب مناسبی ایجاد می‌کنیم که مخاطبان شما را جذب کرده و ارتباط برقرار کند.</p>
+              <h4 class="title"><a href="">Custom site development</a></h4>
+              <p class="description">We create appropriate web solutions that attract and communicate with your audience.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon" style="background: #fff0da;"><i class="ion-ios-bookmarks-outline" style="color: #e98e06;"></i></div>
-              <h4 class="title"><a href=""> طراحی و توسعه سایت فروشگاهی سفارشی</a></h4>
-              <p class="description">ما برای افزایش فروش و افزایش وفاداری به برند، تجارب خرید آنلاین برتر را ایجاد می‌کنیم.</p>
+              <h4 class="title"><a href="">E-commerce site development</a></h4>
+              <p class="description">We create superior online shopping experiences to increase sales and increase brand loyalty.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
-              <h4 class="title"><a href="">توسعه سایت با وردپرس</a></h4>
-              <p class="description"> طراحی و توسعه سیستم‌های مدیریت محتوا متناسب با نیازهای کسب و کار</p>
+              <h4 class="title"><a href="">Site development with WordPress</a></h4>
+              <p class="description">Design and development of content management systems according to business needs</p>
             </div>
           </div>
-
         </div>
 
         <div class="row">
-          
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
-              <h4 class="title"><a href="">طراحی بنر سایت و اینستاگرام</a></h4>
-              <p class="description">تصویری جذاب که خدمات و مزایای شما را یکجا نشان می‌دهد.</p>
+              <h4 class="title"><a href="">Website and Instagram banner design</a></h4>
+              <p class="description"> An attractive banner that shows your services and benefits together.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon" style="background: #fff0da;"><i class="ion-ios-bookmarks-outline" style="color: #e98e06;"></i></div>
-              <h4 class="title"><a href=""> طراحی لوگو</a></h4>
-              <p class="description">طراحی لوگو را به صورت تخصصی به کسب و کارهای مختلف ارائه می‌کنیم.</p>
+              <h4 class="title"><a href="">Logo design</a></h4>
+              <p class="description">We offer logo design to various businesses.</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
-              <h4 class="title"><a href="">طراحی پوستر</a></h4>
-              <p class="description">پوستر مورد نظر شما را برای انتقال پیام و جذب مخاطب  طراحی می‌کنیم.</p>
+              <h4 class="title"><a href="">Poster design</a></h4>
+              <p class="description">We will design the desired poster to convey the message and attract the audience.</p>
             </div>
           </div>
-
         </div>
 
         <div class="row">
-          
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon" style="background: #eafde7;"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
-              <h4 class="title"><a href="">نصب سرویس های مایکروسافت</a></h4>
-              <p class="description">نصب desktop central، نصب و راه اندازی exchange، نصب اکتیو دایرکتوری</p>
+              <h4 class="title"><a href="">Installing Microsoft services</a></h4>
+              <p class="description">Installation of Desktop central, Exchange and Active Directory</p>
             </div>
           </div>
-
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon" style="background: #e1eeff;"><i class="ion-ios-world-outline" style="color: #2282ff;"></i></div>
-              <h4 class="title"><a href="">پشتیبانی شبکه</a></h4>
-              <p class="description">نگهداری شبکه، مراقبت و رفع ایراد بوجود آمده در قسمت نرم افزاری و سخت افزاری شبکه</p>
+              <h4 class="title"><a href="">Network support</a></h4>
+              <p class="description">Maintenance of the network, care and fixing of problems in the software and hardware part of the network</p>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
             <div class="box">
               <div class="icon" style="background: #ecebff;"><i class="ion-ios-clock-outline" style="color: #8660fe;"></i></div>
-              <h4 class="title"><a href="">پشتیبانی کامپیوتر</a></h4>
-              <p class="description">خدمات کامپیوتری اعم از تعمیر کامپیوتر، لپ تاپ، عیب‌یابی و تعمیر نرم افزاری </p>
+              <h4 class="title"><a href="">Computer support</a></h4>
+              <p class="description">Computer services including computer, laptop repair, troubleshooting and software repair</p>
             </div>
           </div>
         </div>
-
       </div>
     </section><!-- #services -->
 
@@ -285,22 +270,22 @@
 
           <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">50</span>
-            <p>مشتری</p>
+            <p>Clients</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">50</span>
-            <p>پروژه</p>
+            <p>Projects</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">1300</span>
-            <p>ساعت پشتیبانی</p>
+            <p>Hours Support</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
             <span data-toggle="counter-up">6</span>
-            <p>کارمند سخت کوش</p>
+            <p>Hardworker Member</p>
           </div>
   
         </div>
@@ -314,12 +299,12 @@
     <section id="call-to-action" class="wow fadeInUp">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-9 text-center text-lg-right">
-            <p class="cta-text mb-0">به یک وب سایت متوسط بسنده نکنید.<br>
-               به ما اجازه دهید یک وب سایت سفارشی متناسب با نیاز و بودجه شما طراحی و بسازیم.</p>
+          <div class="col-lg-9 text-center text-lg-left">
+            <p class="cta-text mb-0">Don't settle for an average website.<br>
+              Let us design and build a custom website that fits your needs and budget.</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="tel:+98930126906">مشاوره رایگان</a>
+            <a class="cta-btn align-middle" href="#footer">Free consultation</a>
           </div>
         </div>
 
@@ -378,42 +363,41 @@
       <div class="container">
 
         <header class="section-header">
-          <h3 class="section-title">نمونه کارها</h3>
+          <h3 class="section-title">Portfolio</h3>
         </header>
 
         <div class="row">
           <div class="col-lg-12">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">همه</li>
-              <li data-filter=".filter-app">وب سایت</li>
-              <li data-filter=".filter-card">بنر</li>
-              <li data-filter=".filter-web">لوگو</li>
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-website">Website</li>
+              <li data-filter=".filter-banner">Banner</li>
+              <li data-filter=".filter-logo">Logo</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-website">
             <div class="portfolio-wrap">
               <img src="img/portfolio/nava-desktop-portf.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">وب سایت آموزشگاه موسیقی</a></h4>
-                <p>وب سایت</p>
+                <h4><a href="#">Music School Website</a></h4>
+                <p>Website</p>
                 <div>
-                  <a href="img/portfolio/nava-desktop-portf.jpg" data-lightbox="portfolio" data-title="وب سایت آموزشگاه موسیقی" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="جزئیات بیشتر"><i class="ion ion-android-open"></i></a>
+                  <a href="img/portfolio/nava-desktop-portf.jpg" data-lightbox="portfolio" data-title="Music School Website" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-banner" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
               <img src="img/portfolio/bive-poster.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">طراحی پوستر تئاتر</a></h4>
-                <p>پوستر</p>
+                <h4><a href="#">Theater poster design</a></h4>
+                <p>Poster</p>
                 <div>
                   <a href="img/portfolio/bive-poster.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
@@ -422,54 +406,54 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-logo" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <img src="img/portfolio/rimp-tunin-logo.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">لوگو خدمات خودرو</a></h4>
-                <p>لوگو</p>
+                <h4><a href="#"> Car service logo</a></h4>
+                <p>Logo</p>
                 <div>
-                  <a href="img/portfolio/rimp-tunin-logo.jpg" class="link-preview" data-lightbox="portfolio" data-title="لوگو خدمات خودرو" title="نمایش"><i class="ion ion-eye"></i></a>
-                  <a href="#" class="link-details" title="اطلاعات بیشتر"><i class="ion ion-android-open"></i></a>
+                  <a href="img/portfolio/rimp-tunin-logo.jpg" class="link-preview" data-lightbox="portfolio" data-title="Car service logo" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-website">
             <div class="portfolio-wrap">
               <img src="img/portfolio/flowersh-desktop-port.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">وب سایت فروشگاه گل و گیاه</a></h4>
-                <p>وب سایت</p>
+                <h4><a href="#">Flower shop website</a></h4>
+                <p>Website</p>
                 <div>
-                  <a href="img/portfolio/flowersh-desktop-port.jpg" class="link-preview" data-lightbox="portfolio" data-title="وب سایت فروشگاه گل و گیاه" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/portfolio/flowersh-desktop-port.jpg" class="link-preview" data-lightbox="portfolio" data-title="Flower shop website" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.1s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-website" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
               <img src="img/portfolio/chair-desktop-port.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">وب سایت فروشگاه صندلی</a></h4>
-                <p>وب سایت</p>
+                <h4><a href="#">Chair shop website</a></h4>
+                <p>Website</p>
                 <div>
-                  <a href="img/portfolio/chair-desktop-port.jpg" class="link-preview" data-lightbox="portfolio" data-title="وب سایت فروشگاه صندلی" title="Preview"><i class="ion ion-eye"></i></a>
+                  <a href="img/portfolio/chair-desktop-port.jpg" class="link-preview" data-lightbox="portfolio" data-title="Chair shop website " title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app" data-wow-delay="0.2s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-banner" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <img src="img/portfolio/lbma-insta.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">پست اینستاگرام</a></h4>
-                <p>طراحی پست</p>
+                <h4><a href="#">Instagram post</a></h4>
+                <p>Post Design</p>
                 <div>
                   <a href="img/portfolio/lbma-insta.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
@@ -478,12 +462,12 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-logo">
             <div class="portfolio-wrap">
               <img src="img/portfolio/ktbma-logo.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">لوگو سایت فروش کتاب</a></h4>
-                <p>لوگو</p>
+                <h4><a href="#">Book selling site logo</a></h4>
+                <p>Logo</p>
                 <div>
                   <a href="img/portfolio/ktbma-logo.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
@@ -492,12 +476,12 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card" data-wow-delay="0.1s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-logo" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
               <img src="img/portfolio/bive-logo.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">لوگو تئاتر</a></h4>
-                <p>لوگو</p>
+                <h4><a href="#">Theater logo</a></h4>
+                <p>Logo</p>
                 <div>
                   <a href="img/portfolio/bive-logo.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
@@ -506,12 +490,12 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web" data-wow-delay="0.2s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-banner" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <img src="img/portfolio/adowing-site.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><a href="#">پیاده سازی سایت تبلیغات</a></h4>
-                <p>وب سایت</p>
+                <h4><a href="#">Implementation of advertising website</a></h4>
+                <p>Website</p>
                 <div>
                   <a href="img/portfolio/adowing-site.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
                   <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
@@ -707,73 +691,72 @@
     <section id="faq">
       <div class="container">
         <header class="section-header pb-4">
-          <h3>سوالات متداول</h3>
+          <h3>FAQ</h3>
         </header>
 
         <ul id="faq-list" class="wow fadeInUp">
           <li>
-            <a data-toggle="collapse" class="collapsed text-right" href="#faq1">
-              <span>مراحل طراحی سایت و عقد قرارداد در صفر و یک به چه صورت است؟ </span>
+            <a data-toggle="collapse" class="collapsed" href="#faq1">
+              <span>What are the stages of website design and contract signing in I.ZER0NE?</span>
               <i class="ion-android-remove"></i>
             </a>
-            <div id="faq1" class="collapse text-right" data-parent="#faq-list">
+            <div id="faq1" class="collapse" data-parent="#faq-list">
               <p>
-                در طراحی اختصاصی پس از عقد قرارداد، ابتدا کارفرما فرم اطلاعات اولیه را تکمیل و در صورت وجود تصاویر یا کاتالوگ و یا سایر فایل‌ها،به ما تحویل داده می‌شوند. چند روز پس از زمان بندی و در نهایت نیازسنجی و شروع پروژه،اتودهای صفحات مختلف از بخش گرافیک به کارفرما جهت بررسی و نظر سنجی تحویل داده می‌شوند، در صورت تأیید،طرح گرافیکی جهت پیاده سازی و کد نویسی به بخش مربوطه ارجاع و در نهایت جهت تأیید مجدد بر روی اینترنت قرار می‌گیرد،در صورت عدم تأیید طرح،درخواست تغییرات و یا طراحی به تعداد نامحدود رایگان است. در مرحله عقد قرارداد 50% پیش پرداخت دریافت می‌گردد،در مرحله تأیید طرح گرافیکی 30% از مبلغ قرارداد پرداخت می‌گردد و در نهایت پس از تحویل طرح کد نویسی شده بر روی اینترنت و تأیید آن توسط کارفرما 20% از مبلغ قرارداد نیز تسویه می‌گردد.
+                In exclusive design, after signing the contract, the employer first fills out the basic information form, and if there are any pictures or catalogs or other files, they are delivered to us. A few days after the scheduling and finally the needs assessment and the start of the project, the designs of different pages are delivered from the graphics department to the employer for review and opinion, if approved, the graphic design is referred to the relevant department for implementation and coding and finally It is placed on the internet for re-approval, if the design is not approved, it is free to request changes or designs in unlimited number. At the stage of signing the contract, 50% advance payment is received, at the stage of graphic design approval, 30% of the contract amount is paid, and finally, after the delivery of the coded design on the Internet and its approval by the employer, 20% of the contract amount is settled.
               </p>
             </div>
           </li>
-
           <li>
-            <a data-toggle="collapse" class="collapsed text-right" href="#faq2">
+            <a data-toggle="collapse" class="collapsed" href="#faq2">
               <span>
-                با همان امکانات مورد نظر قالب گرافیکی سایت را به صورت آماده یا اختصاصی سفارش دهیم،با توجه به اختلاف زیاد قیمت مابین این دو،تفاوت آن‌ها در چیست ؟</span>
-              <i class="ion-android-remove"></i>
-            </a>
-            <div id="faq2" class="collapse text-right" data-parent="#faq-list">
-              <p>
-                قالب آماده در واقع یکبار طراحی می‌شود و به صورت انبوه به فروش می‌رسد که می‌تواند در رنگ بندی و چیدمان‌های مختلف باشد،در صورتی که قالب اختصاصی یک بار طراحی می‌شود و تنها یکبار و به سفارش دهنده فروخته می‌شود بنابراین قیمت بسیار بالاتری دارد. در قالب اختصاصی تمامی چیدمان‌ها و رنگ‌ها مطابق با نظر و سلیقه مشتری طراحی می‌شود و در نتیجه رضایت کامل بهمراه خواهد داشت،در صورتی که ممکن است در قالب‌های آماده رضایت شما از چیدمان و المان های گرافیکی به صورت 100% نباشد. توجه نمایید که قالب‌های آماده قابل توسعه و تغییر برای یک مشتری خاص نیز می‌باشند،همچنین کارفرما می‌تواند کلیه محتوا و منوها و صفحات را ویرایش و توسعه نماید و تفاوتی مابین قالب اختصاصی و آماده وجود ندارد. باید توجه داشت که قالب آماده با سایت آماده متفاوت است، در صفر و یک سیستم مدیریت محتوای قالب های اختصاصی و آماده هردو به صورت دستی نوشته می‌شوند و یکسان هستند در صورتی که در سایت آماده هم قالب آماده می‌باشد و هم سیستم مدیریت محتوای آن ، مانند جوملا و .... که وب وان از این سیستم‌ها استفاده نمی‌کند.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-toggle="collapse" class="collapsed text-right" href="#faq3">
-              <span>
-                هزینه ارتقا امنیت سایت در شرکت شما چقدر هست؟
+                With the same facilities, we can order ready-made or exclusive website, considering the large price difference between the two, what is the difference between them?
               </span>
               <i class="ion-android-remove"></i>
             </a>
-            <div id="faq3" class="collapse text-right" data-parent="#faq-list">
+            <div id="faq2" class="collapse" data-parent="#faq-list">
               <p>
-                به صورت پیش فرض استانداردهای لازم امنیتی رعایت یا به روز رسانی می‌شود، در سطح سرور هم تمامی موارد به صورت دستی کانفیگ می‌شود و هم اینکه هیچ کد آماده‌ای بر روی سرورها وجود ندارد تا امکان نفوذ فراهم شود،همچنین ما سرویس‌های ویژه ای برای پیشگیری بر روی سرورها توسعه داده است،در سطح پایگاه داده ما از SQL Server استفاده می‌کند که در یک دهه اخیر کمترین میزان نفوذ را داشته است
+                The ready-made mold is actually designed once and sold in bulk, which can be in different colors and layouts, while the exclusive mold is designed once and sold only once to the customer, so it has a much higher price. In the exclusive format, all layouts and colors are designed according to the customer's opinion and taste, and as a result, it will bring complete satisfaction, if you may not be 100% satisfied with the layout and graphic elements in the ready-made templates. Please note that the ready-made templates can be developed and changed for a specific customer, also the employer can edit and develop all the content, menus and pages, and there is no difference between a dedicated and ready-made template. It should be noted that the ready-made template is different from the ready-made site, in zero and one content management system, both the exclusive and ready-made templates are written manually and are the same, if the ready-made website has both the ready-made template and its content management system. such as Joomla and .... that I.ZER0NE does not use these systems.
+              </p>
+            </div>
+          </li>
+          <li>
+            <a data-toggle="collapse" class="collapsed" href="#faq3">
+              <span>
+                How much does it cost to improve the security of the site in your company?
+              </span>
+              <i class="ion-android-remove"></i>
+            </a>
+            <div id="faq3" class="collapse" data-parent="#faq-list">
+              <p>
+                By default, the necessary security standards are observed or updated, at the server level, all items are configured manually, and there is no ready code on the servers to enable intrusion, we also provide special services to prevent It has developed on servers, at the database level we use SQL Server, which has had the least amount of penetration in the last decade.
               </p>
             </div>
           </li>
 
           <li>
-            <a data-toggle="collapse" class="collapsed text-right" href="#faq4">
+            <a data-toggle="collapse" class="collapsed" href="#faq4">
               <span>
-                شبکه چیست و چه خدماتی ارائه می‌دهد؟
+                What is the Network and what services does it provide?
               </span>
               <i class="ion-android-remove"></i>
             </a>
-            <div id="faq4" class="collapse text-right" data-parent="#faq-list">
+            <div id="faq4" class="collapse" data-parent="#faq-list">
               <p>
-                شبکه مجموعه‌ای از دستگاه‌ها و سیستم‌های متصل به یکدیگر است که اطلاعات را با یکدیگر به اشتراک می‌گذارند. خدمات شبکه شامل ارتباطات شبکه، به اشتراک گذاری منابع، مدیریت امنیت و نظارت بر شبکه می‌شود.
+                A Network is a collection of interconnected devices and systems that share information with each other. Network services include network communication, resource sharing, security management, and network monitoring.
               </p>
             </div>
           </li>
 
           <li>
-            <a data-toggle="collapse" class="collapsed text-right" href="#faq5">
+            <a data-toggle="collapse" class="collapsed" href="#faq5">
               <span>
-                شرکت خدمات شبکه‌های کامپیوتری چکار می‌کنند؟
+                What do computer network service companies do?
               </span>
               <i class="ion-android-remove"></i>
             </a>
-            <div id="faq5" class="collapse text-right" data-parent="#faq-list">
+            <div id="faq5" class="collapse" data-parent="#faq-list">
               <p>
-                شرکت‌های خدمات کامیپوتری به شما در نصب‌و راه‌اندازی نرم افزارهای مورد نیازتان کمک می‌کنند.همچنین نیازهای کامپیوتری که در طول فرآیند کاری با آن مواجه می‌شوید را به سرعت برطرف می‌نماید.
+                Computer service companies will help you install and set up the software you need. Also, they will quickly solve the computer needs you encounter during the work process.
               </p>
             </div>
           </li>
@@ -790,93 +773,68 @@
   <footer id="footer" class="section-bg">
     <div class="footer-top">
       <div class="container">
-
-        <div class="row">
-
+        <div class="row text-left">
           <div class="col-lg-6">
-
             <div class="row">
-
                 <div class="col-sm-6">
 
                   <div class="footer-info">
-                    <h3>صفر و یک</h3>
-                    <p> یک تیم متخصص در زمینه توسعه وب سایت، گرافیک و خدمات شبکه است. ما با استفاده از آخرین تکنولوژی ها و روش‌های نوین، وب سایت‌هایی را طراحی و پیاده سازی می‌کنیم که به نیازها و اهداف شما پاسخ می‌دهند.</p>
+                    <h3>I.ZER0NE</h3>
+                    <p>A team specializing in website development, graphics and network services. Using the latest technologies and new methods, we design and implement websites that respond to your needs and goals.</p>
                   </div>
                 </div>
 
                 <div class="col-sm-6">
                   <div class="footer-links">
-                    <h4>تماس با ما</h4>
+                    <h4>Contact</h4>
                     <p>
-                      کرج <br><br>
-                      <strong>بخش طراحی و توسعه سایت:</strong>09301266906<br><br>
-                      <strong>بخش خدمات شبکه:</strong>091096873097<br>
+                      <strong>izer0ne.official@gmail.com</strong>
                     </p>
                   </div>
 
                   <div class="social-links">
                     <a href="https://www.instagram.com/i.zer0ne" class="instagram"><i class="fa fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/somayeh-azizianfard/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/company/101451727/" class="linkedin"><i class="fa fa-linkedin"></i></a>
                   </div>
-
                 </div>
-
             </div>
-
           </div>
 
           <div class="col-lg-6">
-
             <div class="form">
-              
-              <h4>برامون پیام بذارید</h4>
+              <h4>Get in touch:</h4>
               <form action="" method="post" role="form" class="contactForm">
                 <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="نام و نام خانوادگی" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Fullname" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="ایمیل" data-rule="email" data-msg="Please enter a valid email" />
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="موضوع" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="پیام"></textarea>
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                   <div class="validation"></div>
                 </div>
 
-                <div id="sendmessage">پیام شما با موفقیت ارسال شد</div>
-                <div id="errormessage"></div>
+                <div id="sendmessage">Your message has been sent successfully </div>
+                <div id="errormessage">Unsuccessful</div>
 
-                <div class="text-center"><button type="submit" title="ارسال پیام">ارسال پیام</button></div>
+                <div class="text-center"><button type="submit" title="send">Send</button></div>
               </form>
             </div>
-
           </div>
-
-          
-
         </div>
-
       </div>
     </div>
 
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong>i.zer0ne</strong>
-      </div>
-      <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Rapid
-        -->
-        توسعه توسط <a href="#">صفر و یک | i.zer0ne</a>
       </div>
     </div>
   </footer><!-- #footer -->
