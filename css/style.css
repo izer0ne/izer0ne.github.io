@@ -226,36 +226,35 @@ body#falang h6 {
 
 #intro {
   width: 100%;
-  height: 100vh;
   position: relative;
   background: url("../img/intro-img-land.png") no-repeat;
-  background-size: 100%;
-  background-position: 100% 0%;
+  background-size: cover;
+  background-position: 47% 0%;
 }
 
 #intro .intro-info h2 {
   color: #fff;
   margin-bottom: 40px;
   font-size: 30px;
-  /* font-weight: 700; */
+  line-height: 1.9rem;
 }
 
-#enlang #intro .intro-info h2 {
+/* #enlang #intro .intro-info h2 {
   font-size: 25px;
-}
+} */
 #intro .intro-info .btn-get-started,
 #intro .intro-info .btn-services {
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 32px;
-  border-radius: 4px;
+  border-radius: 20px;
   transition: 0.5s;
   color: #fff;
   background: #6a44c3;
-  color: #fff;
+  border: 1px solid #fff;
 }
 
 body#falang #intro .intro-info .btn-get-started,
@@ -265,7 +264,7 @@ body#falang #intro .intro-info .btn-services {
 
 #intro .intro-info .btn-get-started:hover,
 #intro .intro-info .btn-services:hover {
-  background: #0a98c0;
+  background: #5c59a7;
 }
 
 /*--------------------------------------------------------------
@@ -1288,7 +1287,7 @@ body#falang #call-to-action .cta-btn {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #0a98c0;
+  background: #5c59a7;
   color: #fff;
 }
 
@@ -1435,14 +1434,14 @@ body#falang #call-to-action .cta-btn {
 #footer .footer-top .form button[type="submit"] {
   background: #6a44c3;
   border: 0;
-  border-radius: 3px;
+  border-radius: 15px;
   padding: 8px 30px;
   color: #fff;
   transition: 0.3s;
 }
 
 #footer .footer-top .form button[type="submit"]:hover {
-  background: #0a98c0;
+  background: #5c59a7;
   cursor: pointer;
 }
 
@@ -1472,7 +1471,23 @@ body#falang #call-to-action .cta-btn {
 # Responsive Media Queries
 --------------------------------------------------------------*/
 
-@media (min-width: 991px) {
+@media (min-width: 992px) {
+  #intro {
+    height: 750px;
+  }
+
+  #intro .intro-info {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 120px;
+    right: 5%;
+  }
+
+  #testimonials .testimonial-item p {
+    width: 80%;
+  }
+
   #call-to-action .cta-btn-container {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1489,17 +1504,7 @@ body#falang #call-to-action .cta-btn {
   }
 }
 
-@media (min-width: 992px) {
-  #intro .intro-info {
-    margin-bottom: 90px;
-  }
-
-  #testimonials .testimonial-item p {
-    width: 80%;
-  }
-}
-
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   #topbar {
     display: none;
   }
@@ -1510,10 +1515,10 @@ body#falang #call-to-action .cta-btn {
   }
 
   #header .logo h1 {
-    font-size: 28px;
-    padding: 8px 0;
+    font-size: 24px;
+    padding: 4px 0;
     position: absolute;
-    left: 20px;
+    left: 16px;
   }
 
   #why-us .why-us-content {
@@ -1530,29 +1535,10 @@ body#falang #call-to-action .cta-btn {
 }
 
 @media (max-width: 768px) {
-  .back-to-top {
-    bottom: 15px;
-  }
-
-  #faq #faq-list a {
-    font-size: 16px;
-  }
-
-  #faq #faq-list i {
-    top: 13px;
-  }
-}
-
-@media (max-width: 767px) {
   #intro {
-    height: auto;
-    padding: 80px 0 80px 0;
-    background-size: 155%;
-    background-position: 35% 0;
-  }
-
-  #intro .container {
-    height: auto !important;
+    height: 443px;
+    background-size: cover;
+    background-position: 24% 0;
   }
 
   #intro .intro-img {
@@ -1561,16 +1547,24 @@ body#falang #call-to-action .cta-btn {
 
   #intro .intro-info {
     text-align: center;
-    padding-top: 162px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 35px;
+    right: 5%;
   }
 
   #intro .intro-info h2 {
-    font-size: 20px;
+    font-size: 13px;
     margin-bottom: 30px;
   }
 
   #about {
     padding: 10px 0;
+  }
+
+  #about .about-content h2 {
+    text-align: center;
   }
 
   #about .about-content h3 {
@@ -1603,6 +1597,36 @@ body#falang #call-to-action .cta-btn {
   #call-to-action .cta-text {
     font-size: 18px;
     padding-bottom: 16px;
+  }
+
+  .back-to-top {
+    bottom: 15px;
+  }
+
+  #faq #faq-list a {
+    font-size: 16px;
+  }
+
+  #faq #faq-list i {
+    top: 13px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  #intro {
+    height: 453px;
+  }
+
+  #intro .intro-info {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 46px;
+    right: 15%;
+  }
+
+  #intro .intro-info h2 {
+    font-size: 18px;
   }
 }
 
